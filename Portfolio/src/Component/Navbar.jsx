@@ -5,7 +5,7 @@ const Navbar= () =>{
         <header class="header">
             <nav class="navol">
                 <div class="navdiv">
-                    <h1>SHIVARAJ D</h1>
+                    <h1>PORTFOLIO</h1>
                 </div>
                 <li class="navli">
                 <Link class="link" to="/Acheivements"><h1>Acheivements</h1></Link>

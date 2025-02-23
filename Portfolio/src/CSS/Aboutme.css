@@ -1,55 +1,84 @@
-/* Parent container to align both divs in a row */
+/* Parent container */
 .b {
     display: flex;
     width: 100%;
     height: 100vh;
-    background-color: #000; /* Ensures the entire section has a black background */
+    background-color: #000; /* Black background */
+    justify-content: flex-start; /* Align everything to the left */
 }
 
-/* Left Side - Image Section */
+/* Left Side - Image Box */
 .about {
-    width: 50%; /* Takes half of the screen */
+    width: 50%;
     display: flex;
-    flex-direction: column; /* Stack name above image */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #000; /* Black background */
+    background-color: #000;
     text-align: center;
     position: relative;
 }
 
+/* Box around Image */
+.image-box {
+    background-color: #1a1a1a; /* Dark box matching the right side */
+    padding: 30px;
+    border-radius: 15px 15px 0 0; /* Rounded top corners */
+    border: 2px solid rgba(50, 50, 50, 0.8);
+    box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.9);
+    width: fit-content;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect - Slight Increase in Size */
+.image-box:hover {
+    transform: scale(1.05);
+}
+
 /* Name above the image */
 .about h1 {
-    font-size: 40px; /* Increased font size */
+    font-size: 40px;
     color: white;
     margin-bottom: 10px;
     position: absolute;
-    top: 10%; /* Moves name up instead of pushing the image down */
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Image Styling */
 .img {
-    padding-left: 50ox;
-    width: 80%;
-    max-width: 300px;
+    width: 250px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* White shadow for better visibility */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
 /* Right Side - Summary Content */
 .objective-container {
-    width: 50%; /* Takes half of the screen */
+    width: 50%; /* Takes only left half */
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centers content vertically */
-    align-items: flex-start; /* Aligns content to the left */
-    text-align: left;
-    background-color: #000; /* Black background */
-    padding: 40px;
-    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000;
+    padding-left: 20px;
     position: relative;
-    top: -30px; /* Moves the content slightly up */
-    left: -20px; /* Moves the entire content 20px to the left */
+}
+
+/* Box for Text Content */
+.objective-content {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px 15px 0 0;
+    border: 2px solid rgba(50, 50, 50, 0.8);
+    box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.9);
+    width: 90%;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect for Right Side */
+.objective-content:hover {
+    transform: scale(1.05);
 }
 
 /* Summary Heading */
@@ -59,7 +88,7 @@
     margin-bottom: 15px;
     text-transform: uppercase;
     position: relative;
-    left: -10px; /* Moves heading 10px to the left */
+    left: -10px;
 }
 
 /* Content Styling - Remove paragraph format */
@@ -67,8 +96,8 @@
     font-size: 18px;
     line-height: 1.6;
     color: #f1f1f1;
-    display: block; /* Makes text behave like paragraphs without <p> tags */
-    margin-bottom: 10px; /* Adds spacing between lines */
+    display: block;
+    margin-bottom: 10px;
 }
 
 /* Remove underline from college name */
