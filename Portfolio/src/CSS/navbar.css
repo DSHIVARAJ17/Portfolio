@@ -1,0 +1,24 @@
+.navli{
+    list-style-type: none;
+    padding-right: 40px;
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.navdiv{
+    font-size: 20px;
+    padding-right: 40%;
+    color: white;
+}
+.navol{
+    flex-direction: row;
+    display: flex;
+}
+.link:hover{
+    color: red;
+}
+.header{
+    background-color: black;
+}
