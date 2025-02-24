@@ -1,5 +1,5 @@
 import "../CSS/Aboutme.css";
-import "../assets/porfolioimg"
+import "../assets/porfolioimg.jpeg"
 const Aboutme = () => {
     return(
         <div class="b">
