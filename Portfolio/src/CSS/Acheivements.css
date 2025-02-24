@@ -1,0 +1,13 @@
+.div{
+    padding: 0px;
+}
+.li{
+    background-color: rgb(55, 51, 67);
+    color: rgb(128, 63, 231);
+    list-style: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.li:hover{
+    transform: scale(1.05);
+}

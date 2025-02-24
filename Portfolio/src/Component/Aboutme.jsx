@@ -5,7 +5,7 @@ const Aboutme = () => {
         <div class="b">
         <div class="about">
         <h1>Shivaraj D</h1>
-        <img src="./src/assets/porfolioimg.jpeg"  class="img" alt="image"  />;
+        <img src="./src/assets/porfolioimg.jpeg" class="img" alt="image"  />;
         </div>
         <div className="objective-container">
         <div className="objective-content">

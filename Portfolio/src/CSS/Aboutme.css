@@ -51,8 +51,11 @@
     width: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
 }
-
+.img:hover{
+    transform: scale(1.05);
+}
 /* Right Side - Summary Content */
 .objective-container {
     width: 50%; /* Takes only left half */
