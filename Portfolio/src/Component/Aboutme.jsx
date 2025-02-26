@@ -9,10 +9,10 @@ const Aboutme = () => {
         </div>
         <div className="objective-container">
         <div className="objective-content">
-  <h1>Summary</h1>
-  <span>As a <b>Full Stack Developer</b> and a third-year <strong>IT student</strong> at <u>St. Joseph's Institute of Technology</u>, my goal is to leverage my skills in <mark>Java, Data Structures & Algorithms</mark>, and modern web technologies to build efficient, scalable, and user-friendly applications.</span>
-  <span>I am passionate about problem-solving, backend optimization, and creating seamless user experiences.</span>
-  <span>With a strong foundation in <b>JavaScript, React.js, Node.js</b>, and database management, I am eager to apply my knowledge in real-world scenarios.</span>
+  <h1>Hi, I am SHIVARAJ D</h1>
+  <span><h1>I'm a student with expertise in the MERN stack</h1></span>
+  <span><h1>and competitive programming. Reach out if you'd</h1></span>
+  <span><h1>like to learn more!</h1></span>
 </div>
 
     </div>
